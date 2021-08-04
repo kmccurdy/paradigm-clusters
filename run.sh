@@ -16,8 +16,8 @@ if [ "$1" == "test" ]; then
 fi
 
 MPATH=MorphAGram/data/S21T2/
-MSEGS=2021Task2/predictions/MorphAGram/
 PPATH=2021Task2/predictions/
+MSEGS=$PPATH"MorphAGram/"
 
 mkdir -p $MPATH
 mkdir -p $MSEGS

@@ -4,6 +4,8 @@ Code to generate paradigm clusters for the [2021 SIGMORPHON Shared Task 2](https
 
 Disclaimer: everything here is extremely hacky research code. Caveat emptor.
 
+Has only been run on Linux machines so far, but should work on OSX as well if you can compile the PY-AGS sampler.
+
 # Setup
 
 Run the setup script:
