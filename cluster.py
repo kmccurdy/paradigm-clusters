@@ -281,7 +281,7 @@ def aggregate_segmentations(lang, kwargs):
     for g in kwargs.grammars.split():
         gram = {}
         gram["all"] = defaultdict(list)
-        for r in range(kwargs.n):
+        for r in range(int(kwargs.n)):
             gram[r] = {}
             seg3data = f"{kwargs.segdir}{lang}.G{g}.R{r}.seg.csv"
             with open(seg3data, 'r') as seg:

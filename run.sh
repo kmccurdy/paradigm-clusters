@@ -38,7 +38,7 @@ for lang in $langs; do
 	python cluster.py --langs $lang --scores $T --n $N
 
 	# optional - evaluate cluster output vs. gold standard
-	python evaluate/eval.py --reference $DPATH$lang"."$1".gold" --prediction $PPATH$lang".T"$T".preds"
+	python 2021Task2/evaluate/eval.py --reference $DPATH$lang"."$1".gold" --prediction $PPATH$lang".T"$T".preds"
 
 done
 
